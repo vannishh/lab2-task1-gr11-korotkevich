@@ -47,6 +47,14 @@ void print_lucky_number(int number) {
     printf("%06d\n", number);
 }
 
+void test_lucky_numbers() {
+    printf("Тестирование функции is_lucky_number:\n");
+    printf("111111: %s\n", is_lucky_number(111111) ? "счастливый" : "не счастливый");
+    printf("123123: %s\n", is_lucky_number(123123) ? "счастливый" : "не счастливый");
+    printf("123456: %s\n", is_lucky_number(123456) ? "счастливый" : "не счастливый");
+    printf("999999: %s\n", is_lucky_number(999999) ? "счастливый" : "не счастливый");
+}
+
 /**
  * @brief Главная функция программы
  * @param argc Количество аргументов командной строки
