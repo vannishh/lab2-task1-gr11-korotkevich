@@ -1,5 +1,5 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
+run = "gcc -o labrabota2-1 /home/runner/lab2-task1-gr11-petrov/src/main.c"
 
 [agent]
 expertMode = true
